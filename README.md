@@ -1,55 +1,29 @@
-cat << 'EOF' > README.md
-# Tela de Login – Sistema de Autenticação de Usuários
+# Tela de Login – Sistema de Autenticação
 
-## 📌 Objetivo do Projeto
-Desenvolver uma tela de login funcional e segura para autenticação de usuários em um sistema, utilizando **Scrum** como metodologia ágil e **Git/GitHub** para controle de versão e colaboração.
-
----
-
-## 🛠️ Metodologia
-- **Scrum** → Sprints semanais, backlog priorizado pelo PO e acompanhamento pelo Scrum Master.  
-- **Git/GitHub** → Controle de versão, colaboração em equipe e uso do **GitHub Projects (Kanban)** para gerenciar tarefas.
+## 🔑 Objetivo
+A tela de login permite que você acesse o sistema de forma **segura** e **rápida**, utilizando seu email e senha cadastrados.
 
 ---
 
-## 👥 Equipe
-- **Product Owner (PO):** Kaua Rodrigues  
-- **Scrum Master:** Natali Rodrigues  
-- **Dev 1:** Guilherme Aniba  
-- **Dev 2:** Gabriel Ortolan  
-- **Dev 3:** Nicolas Netto  
+## 🛠 Funcionalidades
+- **Campos de login:** Email e senha.  
+- **Botão de login:** Acessa o sistema após validação.  
+- **Mensagens de erro:** Indica login inválido ou dados incorretos.  
+- **Segurança:** Garantia de autenticação segura no sistema.  
 
 ---
 
-## 📋 Backlog Inicial
-- Criar layout da tela de login (Dev 1)  
-- Adicionar campos de email e senha (Dev 2)  
-- Adicionar botão de login funcional (Dev 1)  
-- Conectar tela ao backend de autenticação (Dev 2)  
-- Exibir mensagens de erro para login inválido (Dev 1)  
-- Validação com usuário final (Usuário)  
+## 🚀 Como usar
+1. Digite seu **email** cadastrado.  
+2. Digite sua **senha**.  
+3. Clique em **Entrar**.  
+4. Caso os dados estejam corretos, você será direcionado à página inicial do sistema.  
+5. Se houver erro, uma mensagem será exibida para correção.
 
 ---
 
-## 📆 Sprint 1 (1 semana)
-- Criar layout (Dev 1)  
-- Campos de email e senha (Dev 2)  
-- Botão de login (Dev 1)  
-- Conectar API (Dev 2)  
-- Testes com usuário final (Usuário)  
-- Acompanhamento (PO e Scrum Master)  
+## 💻 Tecnologias
+- **Frontend:** HTML, CSS e JavaScript  
+- **Backend:** API de autenticação para validar usuários  
 
 ---
-
-## 🗂️ Organização no GitHub (Kanban)
-- **Backlog** → Todas as tarefas listadas.  
-- **Em andamento** → Tarefas da sprint atual.  
-- **Concluído** → Funcionalidades finalizadas e testadas.  
-
----
-
-## 🚀 Tecnologias
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** API de autenticação  
-- **Controle de versão:** Git/GitHub  
-EOF

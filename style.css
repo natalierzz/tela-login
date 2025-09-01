@@ -1,0 +1,143 @@
+:root {
+  --bg: #0f0f12;
+  --card: #141414;
+  --text: #ffffff;
+  --muted: #bdbdbd;
+  --line: #2a2a2a;
+  --primary: #4a6cf7;
+  --primary-hover: #3957d1;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px; /* margens laterais no mobile */
+}
+
+.container {
+  width: 100%;
+  max-width: 440px;
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  padding: 24px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 0 0 16px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.error-message {
+  display: none; /* troque para block quando quiser exibir */
+  background: var(--danger);
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin: 0 0 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.form-group {
+  text-align: left;
+  margin: 0 0 16px;
+}
+
+label {
+  display: block;
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #e5e5e5;
+}
+
+.label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0 0 6px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--muted);
+}
+.forgot-password:hover {
+  color: #9aa3ff;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #0f0f12;
+  color: var(--text);
+  outline: none;
+}
+input::placeholder {
+  color: #767676;
+}
+
+small {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-primary {
+  background: var(--primary); /* maior destaque */
+  color: #fff;
+  margin: 8px 0 12px;
+}
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-secondary {
+  background: transparent; /* menos destaque */
+  color: #fff;
+  border: 1px solid #555;
+  margin-bottom: 16px;
+}
+.btn-secondary:hover {
+  background: #1b1b1b;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 11px;
+  color: #7a7a7a;
+  text-align: center;
+}

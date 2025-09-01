@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entrar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Entrar</h1>
+    <p class="subtitle">Acesse sua conta para continuar</p>
+
+    <!-- Mensagem de erro (apenas se necessário) -->
+    <div class="error-message">E-mail ou senha inválidos.</div>
+
+    <!-- Campo e-mail -->
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="usuario@dominio.com" />
+      <small>Use um e-mail válido</small>
+    </div>
+
+    <!-- Campo senha -->
+    <div class="form-group">
+      <div class="label-row">
+        <label for="senha">Senha</label>
+        <a class="forgot-password" href="#">Esqueci minha senha</a>
+      </div>
+      <input type="password" id="senha" placeholder="••••••" />
+      <small>Mínimo de 6 caracteres</small>
+    </div>
+
+    <!-- Botões -->
+    <button class="btn btn-primary">Entrar</button>
+    <button class="btn btn-secondary">Criar conta</button>
+
+    <!-- Rodapé -->
+    <p class="footer-text">Protegido por reCAPTCHA e sujeito aos Termos de Uso</p>
+  </div>
+</body>
+</html>

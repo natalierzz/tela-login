@@ -141,3 +141,46 @@ small {
   color: #7a7a7a;
   text-align: center;
 }
+
+
+
+
+.input-error {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 3px rgba(239,68,68,0.08);
+}
+.input-success {
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 3px rgba(16,185,129,0.06);
+}
+
+
+.feedback-message {
+  display: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin: 0 0 16px;
+  text-align: left;
+  font-size: 14px;
+}
+.feedback-message.show { display: block; }
+
+
+.feedback-message.error { background: #ef4444; color: #fff; }
+.feedback-message.success { background: #10b981; color: #fff; }
+
+
+.btn[disabled] { opacity: 0.85; cursor: not-allowed; }
+.btn .spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255,255,255,0.35);
+  border-top-color: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
